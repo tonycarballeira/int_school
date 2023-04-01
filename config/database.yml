@@ -84,3 +84,4 @@ production:
   database: int_school2_production
   username: int_school2
   password: <%= ENV["INT_SCHOOL2_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
